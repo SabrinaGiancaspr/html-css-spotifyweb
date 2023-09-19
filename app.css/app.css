@@ -77,7 +77,9 @@ menu {
     min-height: 50px;
     display: flex;
     align-items: center;
+    width: 225px;
   }
+  
 
   .img-album-song{
     width: 50px;
@@ -119,6 +121,7 @@ menu {
     border: 1px solid pink;
     min-height: 50px;
     color: white;
+    width: 50%;
   }
 
   .icons-playsong{
@@ -129,6 +132,7 @@ menu {
   .list-icons-playline{
     display: flex;
     gap: 20px;
+    justify-content: center;
   }
 
   .list-item-icon{
@@ -153,17 +157,21 @@ menu {
   .slide-container{
     flex-grow: 1;
     position: relative;
+   
   }
   
   .gray-line{
     background-color: rgba(156, 64, 64, 0.56);
-    padding: 3px;
+    padding: 3px; 
+    border-radius: 15px;
   }
 
   .white-line{
     background-color: rgba(219, 219, 219, 0.958);
     position: absolute;
-    padding: 3px  ;
+    padding: 3px;
+    width: 25%;
+    border-radius: 20px;
   }
 
 
@@ -173,7 +181,16 @@ menu {
   gap: 10px;
   font-size: 20px;
   color: white;
+  padding-right: 10px;
 }
+
+.volume-slide{
+  display: flex;
+  width: 220px;
+  align-items: center;
+  padding-right: 20px;
+}
+
 /* media query  */
 
 /* Medium devices (tablets, 768px and up) */
