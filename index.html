@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./app.css/app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   <title>Spotify</title>
 </head>
 <body>
@@ -32,19 +33,53 @@
               <img src="./img/sinister.jpeg" alt="">
             </figure>
             <div class="song-details">
-              <p class="song-title">Sinister</p>
               <ul class="list-song-name">
+                <li class="song-title">Sinister</li>
                 <li>Brano</li>
                 <li>Nome</li>
               </ul>
-              <span><i class="fa-regular fa-heart"></i></span>
+            </div>
+            <div class="song-icon">
+              <ul>
+                <li><i class="fa-regular fa-heart"></i></li>
+                <li><i class="fa-regular fa-folder"></i></li>
+              </ul>
             </div>
             
           </div> <!--container-song-small-->
 
-          <div class="container-playline"></div>
+          <div class="container-playline">
+            <div class="icons-playsong">
+              <ul class="list-icons-playline">
+                <li class="list-item-icon"><i class="fa-solid fa-shuffle"></i></li>
+                <li class="list-item-icon"><i class="fa-solid fa-backward-step"></i></li>
+                <li class="list-item-icon"><i class="fa-regular fa-circle-play"></i></li>
+                <li class="list-item-icon"><i class="fa-solid fa-forward-step"></i></li>
+                <li class="list-item-icon"><i class="fa-solid fa-arrow-rotate-right"></i></li>
+              </ul>
+            </div>
+            
+            <div class="player">
+              <div class="playerbar-container">
+                <span class="time">0:25</span>
+                <div class="slide-container">
+                  <div class="white-line"></div>
+                  <div class="gray-line"></div>
+                </div>
+                <span class="time">4:35</span>
+              </div>
+            </div>
+          </div> <!--container-playline-->
 
-          <div class="container-song-small"></div>
+          <div class="container-song-small">
+            <div class="volume-slide">
+              <ul class="icon-volume">
+                <li><i class="fa-solid fa-list"></i></li>
+                <li><i class="fa-solid fa-desktop"></i></li>
+                <li><i class="fa-solid fa-volume-high"></i></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

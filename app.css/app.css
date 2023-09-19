@@ -71,11 +71,12 @@ menu {
     justify-content: space-between;
   }
 
-
+/* parte toolbar sinistra con album canzone */
   .container-song-small{
     border: 1px solid orange;
     min-height: 50px;
     display: flex;
+    align-items: center;
   }
 
   .img-album-song{
@@ -102,16 +103,77 @@ menu {
   }
 
   .fa-heart{
-    font-size: 30px;
-    color: red;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.376);
   }
 
+  .fa-folder{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.454);
+  }
+
+  /* parte centrale timeline   */
   .container-playline{
     border: 1px solid pink;
-    width: 200px;
     min-height: 50px;
+    color: white;
   }
 
+  .icons-playsong{
+    border: 1px solid green;
+    padding: 15px;
+  }
+
+  .list-icons-playline{
+    display: flex;
+    gap: 20px;
+  }
+
+  .list-item-icon{
+    font-size: 40px;
+  }
+
+  .player{
+    border: 1px solid peru;
+    padding: 15px;
+  }
+
+  .playerbar-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .time{
+    width: 25px;
+  }
+
+  .slide-container{
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .gray-line{
+    background-color: rgba(156, 64, 64, 0.56);
+    padding: 3px;
+  }
+
+  .white-line{
+    background-color: rgba(219, 219, 219, 0.958);
+    position: absolute;
+    padding: 3px  ;
+  }
+
+
+  /* parte destra volume canzone  */
+.icon-volume{
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  color: white;
+}
 /* media query  */
 
 /* Medium devices (tablets, 768px and up) */
