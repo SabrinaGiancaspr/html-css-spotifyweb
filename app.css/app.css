@@ -6,6 +6,10 @@
 
 /* regole debug tag  */
 
+#app{
+  height: 100vh;
+}
+
 img {
   width: 100%;
 }
