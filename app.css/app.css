@@ -28,32 +28,65 @@ ol,
 menu {
   list-style: none;
 }
+
+.gap{
+  gap: 10px;
+}
+
+/* color palette*/
+
+:root {
+  --light-black: #141922;
+  --dark-black:#080B12;
+  --white: #FFFFFF;
+
+}
+
 /* main */
-.app-content{
+.app-content {
   flex-grow: 1;
   overflow: auto;
+  border: 1px solid red;
+  display: flex;
+}
+
+.sidebar{
+  width: 50px;
+  border: 1px solid red;
+}
+
+.main-content{
+  flex-grow: 1;
+  background-color: var(--dark-black);
 }
 
 /* footer */
 
+  .app-toolbar {
+    background-color: var(--light-black);
+    height: auto;
+    border: 1px solid blue;
+    padding: 20px 0 20px 10px;
+    display: flex;
+    justify-content: space-between;
+  }
 
-.toolbar{
-  display: flex;
-  height: auto;
-}
 
-/* debug  */
+  .container-song-small{
+    border: 1px solid orange;
+    width: 100px;
+    min-height: 50px;
 
-.debug {
-  border: 1px solid black;
-  padding: 10px;
-}
+  }
 
-.debug .row {
-  border: 1px solid yellow;
-  padding: 10px;
-}
+  .container-playline{
+    border: 1px solid pink;
+    width: 200px;
+    min-height: 50px;
 
+
+
+  }
 /* media query  */
 
 /* Mobile  */
