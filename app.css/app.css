@@ -4,3 +4,62 @@
   box-sizing: border-box;
 }
 
+/* regole debug tag  */
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  display: inline-block;
+}
+
+ul,
+ol,
+menu {
+  list-style: none;
+}
+
+
+/* debug  */
+
+.debug .container,
+.debug .container-medium,
+.debug .container-small  {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.debug .row {
+  border: 1px solid yellow;
+  padding: 10px;
+}
+
+/* media query  */
+
+/* Mobile  */
+@media (min-width: 576px) {
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+ }
