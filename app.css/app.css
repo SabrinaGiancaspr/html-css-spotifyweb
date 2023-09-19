@@ -8,6 +8,9 @@
 
 #app{
   height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -25,13 +28,23 @@ ol,
 menu {
   list-style: none;
 }
+/* main */
+.app-content{
+  flex-grow: 1;
+  overflow: auto;
+}
 
+/* footer */
+
+
+.toolbar{
+  display: flex;
+  height: auto;
+}
 
 /* debug  */
 
-.debug .container,
-.debug .container-medium,
-.debug .container-small  {
+.debug {
   border: 1px solid black;
   padding: 10px;
 }
