@@ -176,7 +176,7 @@ menu {
 
 .volume-slide{
   display: flex;
-  width: 220px;
+  width: 100%;
   align-items: center;
   padding-right: 20px;
 }
@@ -187,6 +187,9 @@ menu {
 @media (min-width: 768px) { 
   .sidebar{
     width: 230px;
+  }
+  .img-album-song {
+    width: 60px;
   }
 }
 
