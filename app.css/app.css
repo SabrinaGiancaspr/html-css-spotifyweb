@@ -65,16 +65,12 @@ menu {
   .app-toolbar {
     background-color: var(--light-black);
     height: auto;
-    border: 1px solid blue;
-    padding: 20px 0 20px 10px;
     display: flex;
     justify-content: space-between;
   }
 
 /* parte toolbar sinistra con album canzone */
   .container-song-small{
-    border: 1px solid orange;
-    min-height: 50px;
     display: flex;
     align-items: center;
     width: 225px;
@@ -88,8 +84,6 @@ menu {
 
   .song-details{
     color: white;
-    min-height: 30px;
-    border: 1px solid white;
     padding-left: 10px;
     padding-right: 40px;
   }
@@ -118,14 +112,11 @@ menu {
 
   /* parte centrale timeline   */
   .container-playline{
-    border: 1px solid pink;
-    min-height: 50px;
     color: white;
     width: 50%;
   }
 
   .icons-playsong{
-    border: 1px solid green;
     padding: 15px;
   }
 
@@ -136,11 +127,10 @@ menu {
   }
 
   .list-item-icon{
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .player{
-    border: 1px solid peru;
     padding: 15px;
   }
 
