@@ -83,20 +83,15 @@ menu {
     border: 1px solid pink;
     width: 200px;
     min-height: 50px;
-
-
-
   }
+
 /* media query  */
-
-/* Mobile  */
-@media (min-width: 576px) {
-
- }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
+  .sidebar{
+    width: 230px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
