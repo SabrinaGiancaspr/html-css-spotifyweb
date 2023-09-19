@@ -76,7 +76,12 @@ menu {
     border: 1px solid orange;
     width: 100px;
     min-height: 50px;
+    display: flex;
+  }
 
+  .img-album-song{
+    width: 50px;
+    max-width: 100px;
   }
 
   .container-playline{
