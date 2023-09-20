@@ -47,6 +47,8 @@ menu {
 .grow-1{
   flex-grow: 1;
 }
+
+
 /* color palette*/
 
 :root {
@@ -75,12 +77,11 @@ menu {
 
 .menu-logo{
   width: 35px;
-  margin: 0 auto;
+  margin-left: 10px;
 }
 
 .download-icon{
-  padding: 5px;
-  margin-bottom: 15px;
+  width: 40px;
 }
 
 .profile-icon{
@@ -95,9 +96,22 @@ menu {
   color: white;
 }
 
-.debug, .menu-profile{
+.menu-profile{
   display: flex;
-  align-items: end;
+  flex-direction: column;
+}
+
+.fa-square-plus{
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.playlist{
+display: none;
+}
+
+.list-item{
+  display: none;
 }
 
 /* main */
@@ -106,6 +120,7 @@ menu {
   overflow: auto;
   border: 1px solid red;
   display: flex;
+  color: white;
 }
 
 
@@ -293,6 +308,16 @@ menu {
     width: 30px;
   }
 
+  .playlist{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: 5px;
+  }
+
+  .list-item{
+    display: inline-block;
+  }
   /* player  */
   .container-song-small {
     width: 240px;
