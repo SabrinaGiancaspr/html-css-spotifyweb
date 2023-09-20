@@ -203,6 +203,18 @@ menu {
   color: rgba(255, 255, 255, 0.53);
 }
 
+/* sezione per te  */
+.per-te, .artisti-popular{
+  margin-top: 20px;
+}
+
+.img-circle{
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
 /* footer */
 
   .app-toolbar {
@@ -355,6 +367,22 @@ menu {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
+
+/* album-cover  */
+
+.album-cover{
+  padding: 15px;
+}
+
+.mobile-col{
+  flex-basis: calc((100% / 12) * 3);
+}
+
+/* creati per te playlist  */
+
+.display-none-mobile{
+  display: inline-block;
+}
   /* sidebar  */
   .sidebar-menu {
     width: 230px;
