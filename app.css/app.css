@@ -128,10 +128,12 @@ menu {
 
 
 
-.button-container{
+.upgrade-bar{
   display: flex;
   justify-content: flex-end;
-  background-color: var(--dark-black);
+  background-color: rgba(0, 0, 0, 0.598);
+  position: sticky;
+  top: 0;
 }
 
 .button{
