@@ -169,10 +169,16 @@ menu {
 }
 
 /* playlist  */
-.container-playlist-section{
+.container-album-section{
   margin: 30px 20px 0 20px;
   border: 1px solid rgb(239, 228, 26);
   min-height: 200px ;
+}
+
+.mobile-col{
+  flex-basis: 50%; 
+  border: 1px solid rgb(199, 62, 160);
+  min-height: 100px;
 
 }
 
