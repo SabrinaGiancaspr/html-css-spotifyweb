@@ -59,7 +59,6 @@ menu {
 /* .sidebar */
 .sidebar-menu {
   width: 50px;
-  border: 1px solid red;
   background-color: black;
   overflow: hidden;
   flex-shrink: 0;
@@ -126,7 +125,6 @@ menu {
 .main-content {
   flex-grow: 1;
   background-color: var(--light-black);
-  border: 1px solid rgb(0, 225, 255);
   overflow: auto;
 }
 
@@ -161,13 +159,11 @@ menu {
 .app-content {
   flex-grow: 1;
   overflow: auto;
-  border: 1px solid red;
   display: flex;
   color: white;
 }
 
 .category-selection {
-  border: 1px solid rgb(0, 255, 60);
   margin: 5px 20px 0 20px;
 
 }
@@ -187,8 +183,6 @@ menu {
 /* playlist  */
 .container-album-section {
   margin: 30px 20px 0 20px;
-  border: 1px solid rgb(239, 228, 26);
-  min-height: 200px;
 }
 
 .row {
@@ -199,8 +193,6 @@ menu {
 
 .mobile-col {
   flex-basis: 50%;
-  border: 1px solid rgb(199, 62, 160);
-  min-height: 100px;
 }
 
 .album-hover {
