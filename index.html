@@ -1,82 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./app.css/app.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Spotify</title>
 </head>
+
 <body>
   <div id="app">
     <main class="app-content">
 
-<!-- asidebar  -->
+      <!-- asidebar  -->
       <aside class="sidebar-menu">
         <div class="sidebar-container">
-          
-            <div class="menu-home">
-           
-            <figure>
-              <img class="logo-spotify" src="./img/logo-small.svg" alt="">
-              <img class="logo-with-title" src="./img/logo.svg" alt="">
+          <div class="menu-top">
+            <figure class="logo">
+              <a href="#"><img class="logo-small" src="./img/logo-small.svg" alt=""></a>
+              <a href="#"><img class="logo-large" src="./img/logo.svg" alt=""></a>
             </figure>
-         
-              <ul class="home-list">
-                <li><img class="img-nav-sidebar" src="./img/home.svg" alt="">
-                    <span class="list-item ">Home</span>
-                </li>
-                <li><img class="img-nav-sidebar" src="./img/search.svg" alt="">
-                    <span class="list-item font-gray"> Cerca</span>
-                </li>
-                <li><img class="img-nav-sidebar" src="./img/libreria.svg" alt="">
-                    <span class="list-item font-gray">La tua libreria</span>
-                </li>
-              </ul>
+            
+            <ul class="nav-list">
+              <li class="icon-active active"><img class="img-nav-sidebar " src="./img/home.svg" alt="">
+                <span class="list-item "><a href="#">Home</a></span>
+              </li>
+              <li><img class="img-nav-sidebar" src="./img/search.svg" alt="">
+                <span class="list-item font-gray"> <a href="">Cerca</a> </span>
+              </li>
+              <li><img class="img-nav-sidebar" src="./img/libreria.svg" alt="">
+                <span class="list-item font-gray"><a href="#">La tua libreria</a></span>
+              </li>
+            </ul>
 
-              <ul class="playlist-container">
-                <li class="playlist-section">PLAYLIST</li>
-                <li><i class="fa-solid fa-square-plus font-gray"></i> <span class="font-gray">Crea Playlist</span></li>
-                <li class="font-gray">Nome Playlist</li>
-                <li class="font-gray">Nome Playlist</li>
-                <li class="font-gray">Nome Playlist</li>
-                <li class="font-gray">Nome Playlist</li>
-                <li class="font-gray">Nome Playlist</li>
-                <li class="font-gray">Nome Playlist</li>
-                <li class="font-gray">Nome Playlist</li>  
-              </ul>
-            </div>
+            <ul class="playlist-container">
+              <li class="playlist-section">PLAYLIST</li>
+              <li><i class="fa-solid fa-square-plus font-gray"></i><a class="font-gray" href="#">Crea Playlist</a></li>
+              <li class="font-gray"><a href="#">Nome Playlist</a></li>
+              <li class="font-gray"><a href="#">Nome Playlist</a></li>
+              <li class="font-gray"><a href="#">Nome Playlist</a></li>
+              <li class="font-gray"><a href="#">Nome Playlist</a></li>
+              <li class="font-gray"><a href="#">Nome Playlist</a></li>
+              <li class="font-gray"><a href="#">Nome Playlist</a></li>
+              <li class="font-gray"><a href="#">Nome Playlist</a></li>
+            </ul>
+          </div>
+
           <div class="menu-profile">
             <ul>
               <li class="download"><img class="download-icon icon" src="./img/download.svg" alt="">
-                <span class="download-app">Installa App</span>
+                <a class="download-app" href="#">Installa App</a>
               </li>
               <li><img class="profile-icon icon" src="./img/profile.svg" alt="">
-                  <span class="name-account">John Doe</span>
+                <a class="name-account" href="#">Sabrina Giancaspro</a>
               </li>
             </ul>
-          </div>
-        </div>
-      </aside>
-<!-- navbar button -->
+          </div><!-- menu-profile  -->
+        </div> <!--sidebar-container-->
+      </aside> <!--sidebar-menu-->
+
+      <!-- navbar button -->
       <section class="main-content">
         <div class="upgrade-bar">
-          <a href="#" class="button">
-            EFFETTUA L'UPGRADE
-          </a>
+          <a href="#" class="button">EFFETTUA L'UPGRADE</a>
         </div>
-
         <div class="category-selection">
           <ul class="list-category subtitle">
-            <li>IN EVIDENZA</li>
-            <li>PDCAST</li>
-            <li>CLASSIFICHE</li>
-            <li>GENERI E MOOD</li>
-            <li>NUOVE USCITE</li>
-            <li>SCOPRI</li>
+            <li><a href="">IN EVIDENZA</a></li>
+            <li><a href="#">PDCAST</a></li>
+            <li><a href="#">CLASSIFICHE</a></li>
+            <li><a href="#">GENERI E MOOD</a></li>
+            <li><a href="#">NUOVE USCITE</a></li>
+            <li><a href="#">SCOPRI</a></li>
           </ul>
-        </div> 
-        
+        </div> <!--category-selection-->
+
         <div class="container-album-section">
           <h2>Recently played</h2>
           <div class="row">
@@ -93,67 +94,67 @@
             </div>
 
             <div class="mobile-col tablet-col">
-              <img class="album-cover"src="./img/aquietplace.jpeg" alt="">
+              <img class="album-cover" src="./img/aquietplace.jpeg" alt="">
               <h4 class="songs-type font-gray">A quiet place</h4>
               <p class="songs-type subtitle">Subtitle</p>
             </div>
+
             <div class="mobile-col tablet-col">
               <img class="album-cover" src="./img/split.jpeg" alt="">
               <h4 class="songs-type font-gray">Split</h4>
               <p class="songs-type subtitle">Subtitle</p>
             </div>
+
             <div class="mobile-col tablet-col">
               <img class="album-cover" src="./img/cure.jpeg" alt="">
               <h4 class="songs-type font-gray">A Cure for wellness</h4>
               <p class="songs-type subtitle">Subtitle</p>
             </div>
+
             <div class="mobile-col tablet-col">
               <img class="album-cover" src="./img/madame.jpg" alt="">
               <h4 class="songs-type font-gray">Sciccherie</h4>
               <p class="songs-type subtitle">Madame</p>
             </div>
-          </div>
-<!-- per te  -->
-              <div class="per-te">
-                <h2>Creato per Sabrina</h2>
-                <p class="font-gray">Più ascolti, più accurati saranno i suggerimenti.</p>
-                <div class="row">
-                  <div class="mobile-col tablet-col">
-                    <img class="album-cover" src="./img/madamespoti.jpg" alt="">
-                    <h4 class="songs-type">Madame Daily Mix </h4>
-                  </div>
-                  <div class="mobile-col tablet-col">
-                    <img class="album-cover" src="./img/mixdaily.jpeg" alt="">
-                    <h4 class="songs-type">Daily Mix 1</h4>
-                  </div>
-                </div>
+          </div> <!--row-->
+          <!-- per te  -->
+          <div class="per-te">
+            <h2>Creato per Sabrina</h2>
+            <p class="font-gray">Più ascolti, più accurati saranno i suggerimenti.</p>
+            <div class="row">
+
+              <div class="mobile-col tablet-col">
+                <img class="album-cover" src="./img/madamespoti.jpg" alt="">
+                <h4 class="songs-type">Madame Daily Mix </h4>
               </div>
-              <div class="artisti-popular">
-                <h2>Aritsti più popolari</h2>
-                <p class="font-gray">Più ascolti, più saranno suggeriti</p>
-                <div class="row">
+
+              <div class="mobile-col tablet-col">
+                <img class="album-cover" src="./img/mixdaily.jpeg" alt="">
+                <h4 class="songs-type">Daily Mix 1</h4>
+              </div>
+            </div> <!--row-->
+
+            <div class="artisti-popular">
+              <h2>Aritsti più popolari</h2>
+              <p class="font-gray">Più ascolti, più saranno suggeriti</p>
+              <div class="row">
+
                 <div class="mobile-col tablet-col">
                   <img class="img-circle" src="./img/radar.jpeg" alt="">
                 </div>
                 <div class="mobile-col tablet-col">
-                  <img class="img-circle" src="./img/madame.jpg" alt=""></div>
+                  <img class="img-circle" src="./img/madame.jpg" alt="">
                 </div>
               </div>
-        </div>
-
-
+            </div><!--row-->
+          </div> <!--container-album-section-->
         </div>
       </section>
 
-<!-- playlist section  -->
-
-        
-    
-
-      
+      <!-- playlist section  -->
     </main>
 
-<!-- mediaplayer playbar -->
+    <!-- mediaplayer playbar -->
     <footer>
       <div class="app-toolbar">
         <div class="container-song-small">
@@ -168,54 +169,54 @@
               <li class="song">Brano</li>
               <li>nome</li>
             </ul>
-           
+
           </div> <!--song-detail-->
-            <div class="song-icon">
-              <ul class="album-controls">
-                <li><i class="fa-regular fa-heart"></i></li>
-                <li><i class="fa-regular fa-folder"></i></li>
-              </ul>
-            </div>
+          <div class="song-icon">
+            <ul class="album-controls">
+              <li><i class="fa-regular fa-heart"></i></li>
+              <li><i class="fa-regular fa-folder"></i></li>
+            </ul>
+          </div>
         </div> <!--container-song-small-->
 
-          <div class="container-playline">
-            <div class="icons-playsong">
-              <ul class="list-icons-playline">
-                <li class="list-item-icon"><i class="fa-solid fa-shuffle"></i></li>
-                <li class="list-item-icon"><i class="fa-solid fa-backward-step"></i></li>
-                <li class="list-item-icon"><i class="fa-regular fa-circle-play"></i></li>
-                <li class="list-item-icon"><i class="fa-solid fa-forward-step"></i></li>
-                <li class="list-item-icon"><i class="fa-solid fa-arrow-rotate-right"></i></li>
-              </ul>
-            </div>
-            
-            <div class="player">
-              <div class="playerbar-container">
-                <span class="time">0:25</span>
-                <div class="slide-container">
-                  <div class="white-line"></div>
-                  <div class="gray-line"></div>
-                  <div class="circle"></div>
-                </div>
-                <span class="time">4:35</span>
-              </div> <!--playerbar-container-->
-            </div> <!--player-->
-          </div> <!--container-playline-->
+        <div class="container-playline">
+          <div class="icons-playsong">
+            <ul class="list-icons-playline">
+              <li class="list-item-icon"><i class="fa-solid fa-shuffle"></i></li>
+              <li class="list-item-icon"><i class="fa-solid fa-backward-step"></i></li>
+              <li class="list-item-icon"><i class="fa-regular fa-circle-play"></i></li>
+              <li class="list-item-icon"><i class="fa-solid fa-forward-step"></i></li>
+              <li class="list-item-icon"><i class="fa-solid fa-arrow-rotate-right"></i></li>
+            </ul>
+          </div>
 
-          <div class="container-song-small">
-            <div class="volume-slide">
-              <ul class="icon-volume">
-                <li><i class="fa-solid fa-list"></i></li>
-                <li><i class="fa-solid fa-desktop"></i></li>
-                <li><i class="fa-solid fa-volume-high"></i></li>
-              </ul>
+          <div class="player">
+            <div class="playerbar-container">
+              <span class="time">0:25</span>
               <div class="slide-container">
-                <div class="white-line audio"></div>
+                <div class="white-line"></div>
                 <div class="gray-line"></div>
-                <div class="circle track-audio"></div>
+                <div class="circle"></div>
               </div>
-            </div> <!--volume-slide-->
-          </div> <!--container-song-small-->
+              <span class="time">4:35</span>
+            </div> <!--playerbar-container-->
+          </div> <!--player-->
+        </div> <!--container-playline-->
+
+        <div class="container-song-small">
+          <div class="volume-slide">
+            <ul class="icon-volume">
+              <li><i class="fa-solid fa-list"></i></li>
+              <li><i class="fa-solid fa-desktop"></i></li>
+              <li><i class="fa-solid fa-volume-high"></i></li>
+            </ul>
+            <div class="slide-container">
+              <div class="white-line audio"></div>
+              <div class="gray-line"></div>
+              <div class="circle track-audio"></div>
+            </div>
+          </div> <!--volume-slide-->
+        </div> <!--container-song-small-->
       </div> <!--app-toolbar-->
     </footer>
   </div> <!-- id app  -->
