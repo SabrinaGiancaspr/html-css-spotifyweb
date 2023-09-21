@@ -82,7 +82,7 @@ menu {
   margin-left: 10px;
 }
 
-.menu-top{
+.menu-top {
   margin-left: 5px;
 }
 
@@ -119,20 +119,7 @@ menu {
   display: none;
 }
 
-.icon-active{
-position: relative;
-}
 
-.nav-list .icon-active::before{
-  content: '';
-  position: absolute;
-  display: block;
-  height: 100%;
-  width: 3px;
-  background-color: green;
-  top: 0;
-  left: 0;
-} 
 
 /* NAVBAR  */
 
@@ -207,7 +194,7 @@ position: relative;
 }
 
 .album-cover {
-  padding: 15px;
+  padding: 7px;
 }
 
 .songs-type {
@@ -474,6 +461,35 @@ position: relative;
     margin-top: 10px;
   }
 
+  .icon-active {
+    position: relative;
+  }
+
+  .nav-list .icon-active::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 3px;
+    background-color: green;
+    top: 0;
+    left: 0;
+  }
+
+  .list-active{
+    position: relative;
+  }
+
+  .list-category .list-active::after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 3px;
+    background-color: green;
+    bottom: 0;
+  }
+
   /* player  */
   .container-song-small {
     width: 240px;
@@ -514,7 +530,15 @@ position: relative;
 @media (min-width: 992px) {}
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  .mobile-col {
+    flex-basis: calc((100% / 12) * 2);
+  }
+
+  .container-playline{
+    width: 100%;
+  }
+}
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {}
