@@ -149,6 +149,7 @@ menu {
   text-decoration: none;
   margin-top: 20px;
   margin: 15px 25px 15px 0;
+  cursor: grab;
 }
 
 .button:hover {
@@ -179,9 +180,10 @@ menu {
   line-height: 35px;
 }
 
-.list-hover:hover{
+.list-hover:hover {
   color: white;
 }
+
 /* playlist  */
 .container-album-section {
   margin: 30px 20px 0 20px;
@@ -462,7 +464,7 @@ menu {
     color: rgba(255, 255, 255, 0.487);
   }
 
-  .font-gray:hover{
+  .font-gray:hover {
     color: white;
   }
 
@@ -549,10 +551,10 @@ menu {
     padding-right: 10px;
   }
 
-  .fa-heart:hover{
+  .fa-heart:hover {
     color: rgb(244, 0, 0);
   }
-  
+
 
   .fa-folder {
     padding-left: 5px;
